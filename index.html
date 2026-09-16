@@ -1,70 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TC Portfolio</title>
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <nav>
-        <a class="nav-logo" href="index.html" aria-label="Go to about page">
-            <img src="img/SEAL.png" alt="Tyler Coppola logo">
-            <span>Tyler Coppola</span>
-        </a>
-        <ul class="nav-links">
-            <li><a href="index.html" aria-current="page">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- ABOUT SECTION -->
-
-    <section id="about">
-        <div class="about-shell">
-            <div class="about-intro">
-                <div class="about-copy">
-                    <p class="eyebrow">About / 01</p>
-
-                    <h1>Tyler Coppola</h1>
-
-                    <h1 class="about-subtitle">Computer Science major and Financial Technologies minor</h1>
-
-                    <p>
-                        I'm Tyler, a computer science student at WPI interested in web development, software systems, and thoughtful digital tools.
-                    </p>
-
-                    <a class="text-link" href="projects.html">Explore my work <span aria-hidden="true">↙</span></a>
-
-                    <a class="button-link" href="projects.html">View Projects</a>
-                </div>
-
-                <div class="about-portrait" aria-hidden="true">
-                    <img src="img/SEAL.png" alt="Worcester Polytechnic Institute seal">
-                </div>
-            </div>
-
-            <div class="about-skills">
-                <p class="eyebrow">Currently learning and working with</p>
-
-                <div class="skills-grid" id="skillsGrid"></div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <span>© 2026 Tyler Coppola</span>
-        <div class="footer-contact">
-            <a href="mailto:tcoppola@wpi.edu">tcoppola@wpi.edu</a>
-            <a href="tel:+18607708267">860-770-8267</a>
-            <a href="https://www.linkedin.com/in/tyler-coppola-247988366" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        </div>
-    </footer>
-
-    <script src="Portfolio.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f0e9" />
+    <title>Tyler Coppola | Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

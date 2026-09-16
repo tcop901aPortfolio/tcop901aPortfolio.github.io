@@ -6,8 +6,10 @@ export function PageLayout({ children }: { children: ReactNode }) {
   return (
     <IonPage>
       <SiteHeader />
-      <IonContent fullscreen>{children}</IonContent>
-      <SiteFooter />
+      <IonContent fullscreen>
+        <main>{children}</main>
+        <SiteFooter />
+      </IonContent>
     </IonPage>
   );
 }

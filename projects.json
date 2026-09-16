@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Funds Tracker",
+        "description": "A full-stack web application for my trading card business that tracks transactions, manages funds, and coordinates financial activity across multiple team members. Firebase provides real-time synchronization for transaction history and account balances.",
+        "imageText": "Funds Tracker Preview",
+        "videoSrc": "./img/test.mp4",
+        "poster": "./img/SEAL.png",
+        "skills": ["JavaScript", "HTML", "Firebase"],
+        "link": "https://github.com/tcop901aPortfolio/PoolTracker"
+    },
+    {
+        "title": "AI Note Sheet",
+        "description": "A web-based note-taking application with lightweight text styling and AI-powered summarization. The interface helps organize notes while generating concise summaries for easier reading and information retrieval.",
+        "imageText": "AI Note Sheet Preview",
+        "videoSrc": "./img/test.mp4",
+        "poster": "",
+        "skills": ["JavaScript", "HTML", "LLM"],
+        "link": "https://github.com/tcop901aPortfolio/AINoteSheet"
+    },
+    {
+        "title": "Simple Unix Shell",
+        "description": "A Unix shell written in C++ to replicate key features of a modern command-line interface. It includes an interactive prompt, command parsing, process forking, background job management, and built-in commands, completed for my operating systems course at WPI.",
+        "imageText": "Unix Shell Preview",
+        "videoSrc": "./img/test.mp4",
+        "poster": "",
+        "skills": ["C++", "Operating Systems", "Command Line"],
+        "link": "https://github.com/tcop901aPortfolio/ShellProgram"
+    },
+    {
+        "title": "Hand Gesture Canvas",
+        "description": "A computer vision application that uses webcam-based hand gesture recognition to create a hands-free digital drawing interface. MediaPipe provides real-time hand tracking and gesture classification for drawing, color selection, and clearing the canvas.",
+        "imageText": "Hand Gesture Canvas Preview",
+        "videoSrc": "./img/test.mp4",
+        "poster": "",
+        "skills": ["Python", "OpenCV", "Machine Learning", "MediaPipe"],
+        "link": ""
+    }
+]

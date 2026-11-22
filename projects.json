@@ -4,7 +4,7 @@
         "description": "A full-stack web application for my trading card business that tracks transactions, manages funds, and coordinates financial activity across multiple team members. Firebase provides real-time synchronization for transaction history and account balances.",
         "imageText": "",
         "videoSrc": "",
-        "poster": "https://tcop901aportfolio.github.io/img/pooltracker.png",
+        "poster": "./img/pooltracker.png",
         "skills": ["JavaScript", "HTML", "Firebase"],
         "link": "https://github.com/tcop901aPortfolio/PoolTracker"
     },

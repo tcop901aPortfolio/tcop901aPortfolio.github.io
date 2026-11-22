@@ -3,15 +3,22 @@ import projects from '../../projects.json';
 type Project = (typeof projects)[number];
 
 export function ProjectCard({ project, index }: { project: Project; index: number }) {
+  const hasVideo = Boolean(project.videoSrc);
+  const hasPoster = Boolean(project.poster);
+
   return (
     <article className="project-card">
       <span className="project-number">{String(index + 1).padStart(2, '0')}</span>
       <div className="project-media">
-        {project.videoSrc ? (
+        {hasVideo ? (
           <video className="project-video" autoPlay muted loop playsInline poster={project.poster || undefined}>
             <source src={project.videoSrc} type="video/mp4" />
           </video>
-        ) : <div className="project-media-placeholder">{project.imageText || 'Project Preview'}</div>}
+        ) : hasPoster ? (
+          <img className="project-video" src={project.poster} alt={project.title} />
+        ) : (
+          <div className="project-media-placeholder">{project.imageText || 'Project Preview'}</div>
+        )}
       </div>
       <div className="project-content">
         <p className="project-type">Web application / software</p>

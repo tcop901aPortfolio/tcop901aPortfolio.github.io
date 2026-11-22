@@ -2,9 +2,9 @@
     {
         "title": "Funds Tracker",
         "description": "A full-stack web application for my trading card business that tracks transactions, manages funds, and coordinates financial activity across multiple team members. Firebase provides real-time synchronization for transaction history and account balances.",
-        "imageText": "Funds Tracker Preview",
-        "videoSrc": "./img/test.mp4",
-        "poster": "./img/SEAL.png",
+        "imageText": "",
+        "videoSrc": "",
+        "poster": "./img/pooltracker.png",
         "skills": ["JavaScript", "HTML", "Firebase"],
         "link": "https://github.com/tcop901aPortfolio/PoolTracker"
     },
@@ -13,7 +13,7 @@
         "description": "A web-based note-taking application with lightweight text styling and AI-powered summarization. The interface helps organize notes while generating concise summaries for easier reading and information retrieval.",
         "imageText": "AI Note Sheet Preview",
         "videoSrc": "./img/test.mp4",
-        "poster": "",
+        "poster": "./img/SEAL.png",
         "skills": ["JavaScript", "HTML", "LLM"],
         "link": "https://github.com/tcop901aPortfolio/AINoteSheet"
     },

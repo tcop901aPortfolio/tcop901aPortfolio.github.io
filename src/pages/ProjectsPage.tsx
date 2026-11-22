@@ -1,4 +1,4 @@
-import projects from '../../projects.json';
+import projects from '../data/projects.json';
 import { PageLayout } from '../components/PageLayout';
 import { ProjectCard } from '../components/ProjectCard';
 
